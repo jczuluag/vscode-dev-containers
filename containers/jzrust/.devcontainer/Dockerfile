@@ -3,7 +3,7 @@
 FROM arm32v7/rust:latest
 WORKDIR /src
 
-RUN rustup component add rustfmt
+# RUN rustup component add rustfmt
 # [Optional] Uncomment this section to install additional OS packages you may want.
 #
 # RUN apk add --no-cache <your-package-list-here>

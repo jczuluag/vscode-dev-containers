@@ -3,16 +3,16 @@
 		"latest": true,
 		"rootDistro": "debian",
 		"tags": [
-			"rust:${VERSION}"
+			"arm32v7/rust:${VERSION}"
 		]
 	},
 	"dependencies": {
 		"image": "arm32v7/rust",
-		"imageLink": "https://hub.docker.com/_/rust",
-		// "git": {
-		// 	"Oh My Bash!": "/root/.oh-my-bash",
-		// 	"Oh My Zsh!": "/root/.oh-my-zsh"
-		// },
+		"imageLink": "https://hub.docker.com/_/rust/",
+		"git": {
+			"Oh My Bash!": "/root/.oh-my-bash",
+			"Oh My Zsh!": "/root/.oh-my-zsh"
+		},
 		"cargo": {
 			"rustfmt": "rustfmt --version",
 			"rust-analysis": null,

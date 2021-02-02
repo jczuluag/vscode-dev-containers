@@ -5,7 +5,7 @@
 	"version": "0.1.0",
 	"configurations": [
 		{
-			"type": "rust",
+			"type": "jzrust",
 			"request": "launch",
 			"name": "rust-jz (simplest configuration)",
 			"program": "${file}"
