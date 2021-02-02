@@ -1,7 +1,5 @@
 # [Choice] Debian / Ubuntu version: debian-10, debian-9, ubuntu-20.04, ubuntu-18.04
-# ARG VARIANT=debian
-FROM arm32v7/rust:latest
-WORKDIR /src
+FROM mcr.jz.com/vscode/jzcontainers/arm32v7/rust:dev
 
 # RUN rustup component add rustfmt
 # [Optional] Uncomment this section to install additional OS packages you may want.

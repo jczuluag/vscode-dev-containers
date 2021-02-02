@@ -1,4 +1,5 @@
 {
+	"definitionVersion": "0.100.0",
 	"build": {
 		"latest": true,
 		"rootDistro": "debian",
@@ -14,6 +15,7 @@
 			"Oh My Zsh!": "/root/.oh-my-zsh"
 		},
 		"cargo": {
+			"rls": "rls --version",
 			"rustfmt": "rustfmt --version",
 			"rust-analysis": null,
 			"rust-src": null,
