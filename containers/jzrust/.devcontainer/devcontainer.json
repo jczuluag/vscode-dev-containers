@@ -1,5 +1,5 @@
 {
-	"name": "jzrust",
+	"name": "arm32v7-rust",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
