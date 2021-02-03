@@ -27,7 +27,7 @@ Change the target image from mcr.microsoft.com to mcr.jz.com
 ```text
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/master/containers/jzrust/.devcontainer/base.Dockerfile
 
-FROM mcr.jz.com/vscode/devcontainers/arm32v7/rust:dev
+FROM mcr.jz.com/vscode/jzcontainers/arm32v7/rust:dev
 
 # RUN rustup component add rustfmt
 # [Optional] Uncomment this section to install additional OS packages you may want.
